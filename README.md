@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Solution](https://your-solution-url.com)
-- Live Site URL: [Live Preview](https://your-live-site-url.com)
+- Live Site URL: [Live Preview](https://your-live-site-url.com](https://ygwilliams4.github.io/stats-preview-card-component)
 
 ## My process
 
