@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(233, 47%, 7%);
+}
+.container {
+  max-width: 800px;
+  background-color: hsl(244, 38%, 16%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+.col {
+  border-radius: 0 12px 12px 0;
+}
+.col:nth-child(2) {
+  background-color: hsl(277, 64%, 61%);
+  background-image: url("images/image-header-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+}
+.header-text {
+  padding: 4.2rem 2.5rem;
+}
+.header-text h1 {
+  color: #fff;
+  margin-bottom: 11rem;
+}
+.header-text p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin: 1rem 0;
+}
+.header-text h1 span {
+  color: hsl(277, 64%, 61%);
+}
+.header-text ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-text ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.header-text ul li span {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #ffffff;
+}
+.header-text h1 {
+  margin: 0 0 1.2rem;
+}
+.header-text p {
+  margin: 0.5rem 0 2.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 720px;
+    margin: 0.8rem;
+  }
+  .header-text {
+    padding: 2.3rem 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  main {
+    padding: 1rem;
+    min-height: fit-content;
+  }
+  .container {
+    min-height: fit-content;
+    max-width: 90%;
+    margin: 0.2rem 0.6rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .header {
+    height: 250px;
+  }
+  .header-text ul {
+    flex-direction: column;
+  }
+  .header-text ul li {
+    margin: 1rem 0;
+  }
+  .header-text {
+    text-align: center;
+  }
+  .col {
+    border-radius: 12px 12px 0 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .col {
+    border-radius: 12px 12px 0 0;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    padding: 0.2rem;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .col {
+    border-radius: 12px 12px 0 0;
+  }
+}
