@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Solution](https://your-solution-url.com)
+- Solution URL: [View Solution](https://your-solution-url.com](https://github.com/ygwilliams4/stats-preview-card-component)
 - Live Site URL: [Live Preview](https://your-live-site-url.com](https://ygwilliams4.github.io/stats-preview-card-component)
 
 ## My process
